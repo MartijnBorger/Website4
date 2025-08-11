@@ -2,9 +2,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { LineChart as LineChartIcon, Users, Shield, Timer, Handshake, CheckCircle } from 'lucide-react';
-import CookieBanner from '@/components/CookieBanner';
-import PrivacyModal from '@/components/PrivacyModal';
-import LogoMark from '@/components/LogoMark';
+import CookieBanner from './CookieBanner';
+import PrivacyModal from './PrivacyModal';
+import LogoMark from './LogoMark';
 
 const CALENDLY_URL = 'https://calendly.com/voorbeeld/intake-20min'; // vervang met echte link
 
